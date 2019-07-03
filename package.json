@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "abi-decoder": "^1.0.9",
@@ -27,6 +29,8 @@
     "string-similarity": "^1.1.0",
     "tmp": "0.0.31",
     "web3": "git+https://github.com/gobitfly/web3.js.git#develop",
-    "yargs": "^7.0.1"
-  }
+    "yargs": "^7.0.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
