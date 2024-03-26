@@ -14,7 +14,7 @@
     "debug": "~2.6.0",
     "ethereumjs-abi": "git+https://github.com/gobitfly/ethereumjs-abi.git",
     "ethereumjs-util": "^5.1.1",
-    "express": "~4.14.1",
+    "express": "~4.19.2",
     "leveldown": "^4.0.1",
     "levelup": "^3.1.1",
     "moment": "^2.17.1",
